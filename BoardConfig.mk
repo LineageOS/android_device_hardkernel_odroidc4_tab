@@ -4,4 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+## Kernel
+TARGET_KERNEL_VARIANT_CONFIG := g12a_tab_variant_defconfig
+
 include device/hardkernel/odroidc4/BoardConfig.mk
