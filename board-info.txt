@@ -1,0 +1,1 @@
+require board=odroidc4_tab
