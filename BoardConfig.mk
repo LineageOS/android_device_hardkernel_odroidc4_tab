@@ -5,6 +5,6 @@
 #
 
 ## Kernel
-TARGET_KERNEL_VARIANT_CONFIG := aml_tab_variant_defconfig
-
 include device/hardkernel/odroidc4/BoardConfig.mk
+
+TARGET_KERNEL_CONFIG += aml_tab.config
